@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.promo {
+    background: #181818;
+    width: 100%;
+    height: 60px;
+}
+
+
+.promo p {
+    color: #F9F9F9;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px
+}
+
+.logo {
+    width: auto;
+    height: 60px;
+    background-color: #F9F9F9;
+}
+
+.logo h2 {
+    margin: auto;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 24px;
+}
+
+.bg-image {
+    background: url(https://cdn.shopify.com/s/files/1/2017/7541/articles/Air-Jordan-1-Rebellionaire-Shadow-Ban-555088-036-Release-Date-1068x783_1080x.jpg?v=1634645145);
+    width: auto;
+    height: 378px;
+    background: no-repeat center cover;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-bg {
+    display: inline-block;
+    margin-top: 128px;
+    margin-left: 100px;
+    font-size: 18px;
+    color: #F9F9F9;
+    max-width: 1300px;
+}
+
+.text-bg p {
+    width: 460px;
+}
+
+.title-main {
+    text-align: center;
+    margin-top: 58px;
+}
+
+.content-main {
+    max-width: 1300px;
+    margin: auto;
+}
+
+.content-main img {
+    height: 302px;
+    width: 300px;
+    background-color: #EBE9EA;
+    margin: 39px 6.5px 0;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+footer {
+    background: #181818;
+    height: 60px;
+    width: auto;
+    text-align: center;
+    color: #F9F9F9;
+}
+
+footer>section>p {
+    padding-top: 20px;
+}
+
+@media(max-width: 500px) {
+    .text-bg {
+        display: inline-block;
+        margin-top: 90px;
+        margin-left: 20px;
+        font-size: 18px;
+        color: #F9F9F9;
+    }
+
+    .text-bg p {
+        width: 350px;
+        line-height: 30px;
+    }
+
+    .content-main img {
+        height: 302px;
+        width: 374px;
+        background-color: #EBE9EA;
+
+    }
+
+    .content-main {
+        text-align: center;
+    }
+}
